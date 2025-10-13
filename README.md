@@ -1,7 +1,7 @@
 # Git-Handout für Anfänger
 
 ## Was ist Git?
-Kurze Erklärung, warum Git benutzt wird und welche Vorteile ein Versionskontrollsystem bietet.
+Git ist ein verteiltes Versionskontrollsystem, mit dem mehrere Entwickler gleichzeitig am selben Projekt arbeiten können. Es ermöglicht die Nachverfolgung von Änderungen, einfaches Zusammenführen von Beiträgen und sichert die Projekt-Historie.
 
 ## Grundlegende Git-Befehle
 - `git init`
