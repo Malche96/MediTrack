@@ -47,15 +47,14 @@ Man kann damit neue Funktionen oder Änderungen entwickeln, **ohne den Hauptzwei
 git branch neuer-branch
 ### Zum Branch wechseln
 git checkout neuer-branch
+
 ### Branch zusammenführen (Merge)
 git checkout main
 git merge neuer-branch
-### Merge-Konflikte lösen)
-<<<<<<< HEAD
-Text von main
-=======
-Text vom Branch
->>>>>>> neuer-branch
+
+### Merge-Konflikte lösen
+...
+
 Gewünschte Version auswählen oder zusammenführen
 Datei als gelöst markieren:
 git add README.md
