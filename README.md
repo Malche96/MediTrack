@@ -18,3 +18,14 @@ Ein Team arbeitet an einem Dokument. Mit Git können sie:
 3. Konflikte erkennen und lösen, wenn mehrere Leute gleichzeitig Änderungen machen
 
 Git hilft also, Ordnung zu behalten und Fehler rückgängig zu machen, was besonders in Teamprojekten sehr wichtig ist.
+
+
+## Grundlegende Git-Befehle
+
+Hier werden die wichtigsten Git-Befehle für den Einstieg erklärt.  
+
+### 1. git init
+Initialisiert ein neues Git-Repository im aktuellen Ordner.
+
+```bash
+git init
