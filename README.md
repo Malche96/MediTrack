@@ -51,6 +51,16 @@ git checkout neuer-branch
 # Branch zusammenführen (Merge)
 git checkout main
 git merge neuer-branch
+# Merge-Konflikte lösen)
+<<<<<<< HEAD
+Text von main
+=======
+Text vom Branch
+>>>>>>> neuer-branch
+Gewünschte Version auswählen oder zusammenführen
+Datei als gelöst markieren:
+git add README.md
+git commit -m "Merge-Konflikt gelöst"
 
 
 ## Git in IntelliJ/PyCharm verwenden
@@ -95,3 +105,20 @@ IntelliJ und PyCharm haben eine **integrierte Git-Unterstützung**, die viele Be
 - Visualisierung von Änderungen  
 - Einfacher Zugriff auf Branches, Commits, Push/Pull  
 - Merge-Konflikte werden direkt hervorgehoben
+
+### Nützliche Git-Tools und Plattformen
+  GitHub / GitLab / Bitbucket
+  Sourcetree / GitKraken
+  VSCode
+  IntelliJ / PyCharm
+  
+---
+
+## Dokumentation der Zusammenarbeit
+
+| Teammitglied | Beitrag                                                         |
+|----------|-----------------------------------------------------------------|
+| Maximilian Jahrmärker| Erstellen des Git-Repositories und Anlegen der `README.md`-Datei. |
+| Norma Roth | Ausformulierung und Beschreibung der Inhalte in der `README.md`. |
+
+> Hinweis: Jeder hat mindestens 2–3 Commits im eigenen Branch erstellt und die Pull Requests überprüft, bevor die finalen Inhalte in den Haupt-Branch gemerged wurden.
