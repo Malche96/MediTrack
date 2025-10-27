@@ -28,3 +28,70 @@ Initialisiert ein neues Git-Repository im aktuellen Ordner.
 
 
 
+...
+
+
+## Branches und Merge-Konflikte
+
+### Was ist ein Branch?
+Ein **Branch** ist ein paralleler Entwicklungszweig in Git.  
+Man kann damit neue Funktionen oder Änderungen entwickeln, **ohne den Hauptzweig (main) zu verändern**.
+
+> Beispiel: Du arbeitest an einer neuen Funktion, während andere Teammitglieder am Hauptprojekt weiterarbeiten.
+
+---
+
+### Branch erstellen und wechseln
+
+# Neuen Branch erstellen
+git branch neuer-branch
+
+# Zum Branch wechseln
+git checkout neuer-branch
+# Branch zusammenführen (Merge)
+git checkout main
+git merge neuer-branch
+
+
+## Git in IntelliJ/PyCharm verwenden
+
+IntelliJ und PyCharm haben eine **integrierte Git-Unterstützung**, die viele Befehle über die Benutzeroberfläche ausführt.
+
+---
+
+### 1. Repository klonen
+1. Öffne IntelliJ/PyCharm → **Get from Version Control**  
+2. Repository-URL eingeben (z. B. `https://github.com/deinname/git-handout.git`)  
+3. Zielordner auswählen → **Clone**
+
+> Tipp: Alternativ kann man das Repository vorher lokal klonen und dann als Projekt öffnen.
+
+---
+
+### 2. Änderungen committen
+1. Dateien im Projekt ändern  
+2. Menüleiste → **Git → Commit**  
+3. Commit-Nachricht schreiben  
+4. **Commit** oder **Commit and Push** auswählen
+
+---
+
+### 3. Push ins Remote Repository
+- Wenn nur committen: lokal gespeichert  
+- Mit **Push** werden die Änderungen auf GitHub/GitLab hochgeladen  
+  Menüleiste → **Git → Push**  
+
+---
+
+### 4. Branches verwalten
+1. Menüleiste → **Git → Branches**  
+2. Neuer Branch: **New Branch** → Name eingeben  
+3. Wechseln: auf Branch klicken → **Checkout**  
+4. Merge oder Pull Request: Über **Git → Merge Changes** bzw. auf GitHub erstellen
+
+---
+
+### Vorteile der IDE-Integration
+- Visualisierung von Änderungen  
+- Einfacher Zugriff auf Branches, Commits, Push/Pull  
+- Merge-Konflikte werden direkt hervorgehoben
