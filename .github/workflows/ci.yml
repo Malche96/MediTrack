@@ -20,13 +20,8 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Build project
-        run: |
-          echo "Building project..."
-          mkdir build
-          echo "Build successful!" > build/result.txt
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
 
       - name: Run tests
-        run: |
-          echo "Running tests..."
-          echo "All tests passed!"
+        run: mvn test
