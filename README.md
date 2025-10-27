@@ -43,15 +43,14 @@ Man kann damit neue Funktionen oder Änderungen entwickeln, **ohne den Hauptzwei
 
 ### Branch erstellen und wechseln
 
-# Neuen Branch erstellen
+### Neuen Branch erstellen
 git branch neuer-branch
-
-# Zum Branch wechseln
+### Zum Branch wechseln
 git checkout neuer-branch
-# Branch zusammenführen (Merge)
+### Branch zusammenführen (Merge)
 git checkout main
 git merge neuer-branch
-# Merge-Konflikte lösen)
+### Merge-Konflikte lösen)
 <<<<<<< HEAD
 Text von main
 =======
@@ -63,7 +62,7 @@ git add README.md
 git commit -m "Merge-Konflikt gelöst"
 
 
-## Git in IntelliJ/PyCharm verwenden
+### Git in IntelliJ/PyCharm verwenden
 
 IntelliJ und PyCharm haben eine **integrierte Git-Unterstützung**, die viele Befehle über die Benutzeroberfläche ausführt.
 
